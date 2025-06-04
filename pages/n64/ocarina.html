@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <script
+      src="https://kit.fontawesome.com/e0c18b9040.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../sanfrancisco.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../scripts.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="video-container">
+        <video
+          id="video"
+          src="../videos/ocarina.mp4"
+          autoplay
+          loop
+          muted
+          playsinline
+        ></video>
+        <button id="toggleButton" onclick="toggleSound()">
+          <i id="volumeButton" class="fa fa-volume-off"></i>
+        </button>
+        <div class="textArea">
+          <h3>The Legend of Zelda: Ocarina of Time</h3>
+        </div>
+      </div>
+
+      <!-- Agora o conteúdo vem abaixo do vídeo -->
+      <div class="generalContent">
+        <div class="myAvaliation">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="tags">
+          <div class="eachTag">
+            <div class="image">
+              <img src="../platforms/64.svg" alt="" />
+            </div>
+            <span>Plataforma</span>
+          </div>
+          <div class="eachTag">
+            <div class="image">
+              <img src="../genre/rpg.png" alt="" />
+            </div>
+            <span>RPG</span>
+          </div>
+          <div class="eachTag">
+            <div class="image">
+              <img src="../affinity/hearticon.png" alt="" />
+            </div>
+            <span>Pra Vida</span>
+          </div>
+        </div>
+        <div class="description">
+          <p>
+            Facilmente um dos meus jogos favoritos de todos os tempos.
+            Honestamente, só pude jogar direito ele no emulador do Nintendo
+            Switch, mas se tornou um dos meus jogos favoritos de coração. Eu ja
+            tinha lido a história dele no mangá e tinha achado ela maravilhosa.
+            Eu joguei, agora quero que você jogue também ❤︎. Esse é um dos jogos
+            que coloquei traduzido em PT-BR pra você aproveitar da forma mais
+            confortavel possível.
+          </p>
+        </div>
+        <div class="gameImages">
+          <h3>Galeria</h3>
+          <img
+            id="highlightImage"
+            src="../images/ocarina/ocarina-img1.png"
+            alt="Imagem destacada"
+          />
+          <div class="imageCarrousel">
+            <img
+              class="carrouselImage"
+              src="../images/ocarina/ocarina-img1.png"
+              alt=""
+            />
+            <img
+              class="carrouselImage"
+              src="../images/ocarina/ocarina-img2.png"
+              alt=""
+            />
+            <img
+              class="carrouselImage"
+              src="../images/ocarina/ocarina-img3.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="mainPC">
+      <h1>Utilize no celular</h1>
+    </div>
+  </body>
+</html>

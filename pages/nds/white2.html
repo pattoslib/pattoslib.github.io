@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <script
+      src="https://kit.fontawesome.com/e0c18b9040.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../sanfrancisco.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../scripts.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="video-container">
+        <video
+          id="video"
+          src="../videos/white2.mov"
+          autoplay
+          muted
+          loop
+          playsinline
+        ></video>
+        <button id="toggleButton" onclick="toggleSound()">
+          <i id="volumeButton" class="fa fa-volume-off"></i>
+        </button>
+        <div class="textArea">
+          <h3>Pokémon White 2</h3>
+        </div>
+      </div>
+
+      <!-- Agora o conteúdo vem abaixo do vídeo -->
+      <div class="generalContent">
+        <div class="myAvaliation">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star" id="noColorStar"></i>
+        </div>
+        <div class="tags">
+          <div class="eachTag">
+            <div class="image">
+              <img src="../platforms/nds.png" alt="" />
+            </div>
+            <span>Plataforma</span>
+          </div>
+          <div class="eachTag">
+            <div class="image">
+              <img src="../genre/rpg.png" alt="" />
+            </div>
+            <span>RPG</span>
+          </div>
+          <div class="eachTag">
+            <div class="image">
+              <img src="../affinity/happy.png" alt="" />
+            </div>
+            <span>Agradavel</span>
+          </div>
+        </div>
+        <div class="description">
+          <p>
+            Eu joguei muito esse na minha infancia, tanto que até hoje é o meu jogo de pokémon favorito. Juro que se você jogar um pouco vai perceber porque passei meses jogando esse jogo. O jogo é bem jogo simples de pokémon, mas eu acho os gráficos tão lindos... Ele também tem outras coisas que cortam a formula tradicional de pokémon. Eu tenho muito carinho e amor por esse jogo, espero que você goste bastante.
+          </p>
+        </div>
+        <div class="gameImages">
+          <h3>Galeria</h3>
+          <img
+            id="highlightImage"
+            src="../images/white2/white2-img1.png"
+            alt="Imagem destacada"
+          />
+          <div class="imageCarrousel">
+            <img
+              class="carrouselImage"
+              src="../images/white2/white2-img1.png"
+              alt=""
+            />
+            <img
+              class="carrouselImage"
+              src="../images/white2/white2-img2.png"
+              alt=""
+            />
+            <img
+              class="carrouselImage"
+              src="../images/white2/white2-img3.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="mainPC">
+      <h1>Utilize no celular</h1>
+    </div>
+  </body>
+</html>
